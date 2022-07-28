@@ -343,9 +343,10 @@
 
 
 <!--<div class="flex-item">-->
+  <div class="map-responsive">
   
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Tungko%2C%20San%20Jose%20Del%20Monte%2C%20Bulacan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{display:block;margin-left:auto;margin-right:auto;height:500px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div>
-            
+  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3857.7170693514736!2d121.06378459910049!3d14.784959939634641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sBlk.%209%2C%20Lot%208%2C%20Ph.%203%2C%20Dela%20Costa%20Homes%203%2C%20San%20Jose%20Del%20Monte%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1658842674354!5m2!1sen!2sph" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 	            
           
 <footer class="footer" data-background-color="black">
