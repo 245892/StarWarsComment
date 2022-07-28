@@ -116,102 +116,23 @@ li a{
   list-style-type: none;
   text-decoration: none;
 }
+.map-responsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe{
+  left: :0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .flex-container .flex-item .btn btn-info  btn-sm{
   text-align: left;
 }
 
-.container .section-title h2{
-	color:blue;
-}
-.team-item:hover {
-  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
-}
-
-.team-item {
-  margin: 15px 0;
-  border-radius: 0px;
-  box-shadow: 0px 2px 18px 0px rgba(198, 198, 198, 0.3);
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-  background: #fff;
-}
-
-.team-item .team-img {
-  float: left;
-  width: 200px;
-  margin-right: 30px;
-}
-
-.team-item .contetn {
-  padding: 15px 50px;
-  height: 200px;
-}
-.team-item .social-icons {
-  padding-top: 11px;
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-}
-
-.team-item .social-icons li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.team-item .social-icons li a {
-  letter-spacing: 0px;
-  outline: 0 !important;
-}
-.team-item .social-icons li a i {
-  font-size: 18px;
-  display: block;
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-}
-
-.team-item .social-icons li .lni-facebook-filled {
-  color: #3b5998;
-}
-
-.team-item .social-icons li .lni-twitter-filled {
-  color: #00aced;
-}
-
-.team-item .social-icons li .lni-instagram-filled {
-  color: #fb3958;
-}
-
-.team-item .info-text {
-  margin-bottom: 10px;
-}
-.team-item .info-text h3 {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-
-.team-item .info-text h3 a {
-  color: #333;
-}
-
-.team-item .info-text h3 a:hover {
-  color: #F63854;
-}
-
-.team-item .info-text p {
-  margin: 0;
-  color: #888;
-}
-
-.team-item:hover .team-overlay {
-  opacity: 1;
-}
 
 
 .footer {
