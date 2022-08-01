@@ -1,0 +1,161 @@
+
+*{ }
+
+/*.h1-seo h3{
+	font-size: 1em;
+}
+.h2-seo h1{
+	font-size: 4em;
+}
+.h3-seo h1{
+	font-size: 6em;
+}
+.title h2{
+	text-align: center;
+	color: blue;
+	
+}*/
+
+h1{
+  color:rgb(192,41,66);
+  font-size: 400%;
+  text-align: center;
+  background-size: 700px 100px;
+}
+h2{
+  color:red;
+  font-size: 300%;
+}
+.h6-star h1{
+   font-family: "Times New Roman",Times,serif;
+}
+.h1-star h1{
+  color:rgb(167,2,103);
+  font-size: 400%;
+  font-family: "Times New Roman",Times, serif;
+  background-size: 800px 200px;
+ /* background-size: 500px 700px;*/
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+   /* width: 400px;
+    height: 250px;*/
+    background-color: lightgrey;
+}
+
+.flex-item {
+    
+    width: 350px;
+    height: 300px;
+    margin: 100px;
+}
+
+
+
+.flex-item:first-child {
+    margin-right: auto;
+}
+
+   
+
+.flex-item1{
+    width:400px;
+    height:350px;
+    margin:auto;
+}
+
+.flex-container flex-item p{
+  position: absolute;
+  bottom: 10px;
+  color: yellow;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+
+}
+.flex-container flex-item span{
+  position: relative;
+  left: -50%;
+}
+/*h1{
+  height: 300px;
+  width: 800px;
+  background-color: lightpink;
+  
+}*/
+.h2-star h1{
+   color:rgb(79,41,88);
+   font-size: 400%;
+
+}
+.flex-item2{
+    width:750px;
+    height:600px;
+    margin:auto;
+}
+.h4-star h1{
+ /* margin-top: 60px;*/
+  color:rgb(36,143,141);
+  font-size: 400%;
+} 
+.h3-star ul{
+  list-style-type: none;
+  border-top: 40px;
+  margin: 0px;
+  padding: 0px;
+  width:400px;
+  background-color: #f1f1f1;
+}
+li a{
+  display: block;
+  color: 255,251,183;
+  padding: 20px 40px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.map-responsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe{
+  left: :0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.flex-container .flex-item .btn btn-info  btn-sm{
+  text-align: left;
+}
+
+
+
+
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
